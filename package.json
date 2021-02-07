@@ -1,0 +1,26 @@
+{
+  "name": "inSite",
+  "version": "1.0.0",
+  "description": "A lightweight minimal analytics service for your site. Collects only the bascis like number of visits, bounce time, etc.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APJohns/inSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/APJohns/inSite/issues"
+  },
+  "homepage": "https://github.com/APJohns/inSite#readme"
+}

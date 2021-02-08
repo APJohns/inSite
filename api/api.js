@@ -9,7 +9,6 @@ api.use(bodyParser.urlencoded({ extended: false }));
 const mongoose = require('mongoose');
 const Site = mongoose.model('Site');
 
-const sites = [];
 api.post('/new-site', async (req, res) => {
   const site = req.body;
   if (site.name && site.url) {
